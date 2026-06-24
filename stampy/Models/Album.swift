@@ -1,7 +1,9 @@
-//
-//  Album.swift
-//  stampy
-//
-//  Created by Daniel Istrati on 23.06.2026.
-//
+import Foundation
 
+struct Album: Identifiable {
+    let id: UUID
+    var name: String
+    var description: String?
+    var createdAt: Date
+    // stamps relationship will be added when implementing the album feature
+}
